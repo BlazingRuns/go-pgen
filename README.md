@@ -7,7 +7,6 @@ Password Generator Written in golang
 
 func main() {
 
-
 	rand.Seed(time.Now().Unix())
 	
 	
