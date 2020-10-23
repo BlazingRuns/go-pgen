@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"math/rand"
 	"time"
-)
+
+        "github.com/BlazingRuns/go-pgen"
+)//go get github.com/BlazingRuns/go-pgen
 
 var (
 	lowerCharSet   = "abcdedfghijklmnopqrst"
