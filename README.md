@@ -1,5 +1,7 @@
 # Pgen
 
+`go get github.com/BlazingRuns/go-pgen`
+
 Password Generator Written in golang
 
 -- Main --
