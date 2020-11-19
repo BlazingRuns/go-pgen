@@ -5,6 +5,14 @@ import (
 	"strings"
 )
 
+var (
+	lowerCharSet   = "abcdedfghijklmnopqrst"
+	upperCharSet   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	specialCharSet = "!@#$%&*"
+	numberSet      = "0123456789"
+	allCharSet     = lowerCharSet + upperCharSet + specialCharSet + numberSet
+)
+
 func generatePassword(passwordLength, minSpecialChar, minNum, minUpperCase int) string {
 	var password strings.Builder
 
